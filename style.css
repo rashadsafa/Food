@@ -86,6 +86,11 @@ header nav .home-color {
 #thehome .imgbox {
   width: 520px;
 }
+@media screen and (max-width: 576px) {
+  #thehome .imgbox {
+    width: 300px;
+  }
+}
 
 #howitworks h1 {
   font-weight: 700;
