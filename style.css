@@ -210,6 +210,11 @@ header nav .home-color {
   padding: 13px 34px;
   border-radius: 5px;
 }
+@media screen and (max-width: 576px) {
+  #order .imgbox {
+    width: 300px;
+  }
+}
 
 #ourstore {
   background-color: #f1f8f9;
@@ -233,6 +238,11 @@ header nav .home-color {
 }
 #ourstore .imgbox {
   width: 520px;
+}
+@media screen and (max-width: 576px) {
+  #ourstore .imgbox {
+    width: 300px;
+  }
 }
 
 #support .textbox h1 {
