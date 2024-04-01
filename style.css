@@ -28,6 +28,12 @@ header nav a {
 header nav .home-color {
   color: #74bebc;
 }
+@media screen and (max-width: 576px) {
+  header nav a {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}
 
 #food {
   background-color: #f4fafb;
