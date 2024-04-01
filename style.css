@@ -101,6 +101,10 @@ header nav .home-color {
   #thehome .textbox h1 {
     font-size: 35px;
   }
+  #thehome .textbox h5 {
+    font-size: 16px;
+    margin: 0;
+  }
   #thehome .imgbox {
     width: 300px;
   }
