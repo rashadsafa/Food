@@ -60,6 +60,11 @@ header nav .home-color {
 #food .box h4 {
   font-size: 20px;
 }
+@media screen and (max-width: 576px) {
+  #food .box h1 {
+    font-size: 40px;
+  }
+}
 
 #thehome {
   background-color: #f1f8f9;
@@ -87,6 +92,9 @@ header nav .home-color {
   width: 520px;
 }
 @media screen and (max-width: 576px) {
+  #thehome .textbox h1 {
+    font-size: 35px;
+  }
   #thehome .imgbox {
     width: 300px;
   }
@@ -143,7 +151,7 @@ header nav .home-color {
 }
 #ourmenu .bgc {
   background-color: #3cc1d8;
-  color: white;
+  color: #ffffff;
 }
 #ourmenu .box {
   padding: 30px;
@@ -181,12 +189,20 @@ header nav .home-color {
 }
 #ourmenu .box .textbox .add .btn {
   background-color: #3cc1d8;
-  color: white;
+  color: #ffffff;
   padding: 7px 20px;
 }
 #ourmenu .big {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media screen and (max-width: 576px) {
+  #ourmenu .textbox h1 {
+    font-size: 35px;
+  }
+  #ourmenu .btn {
+    padding: 10px 30px;
+  }
 }
 
 #order .imgbox {
