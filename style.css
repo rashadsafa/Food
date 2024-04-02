@@ -106,7 +106,7 @@ header nav .home-color {
     margin: 0;
   }
   #thehome .imgbox {
-    width: 300px;
+    width: 350px;
   }
 }
 
@@ -131,6 +131,11 @@ header nav .home-color {
   font-size: 20px;
   color: #676f8b;
   line-height: 1.3;
+}
+@media screen and (max-width: 576px) {
+  #howitworks .box {
+    width: 300px;
+  }
 }
 
 #ourmenu .textbox {
