@@ -69,6 +69,10 @@ header nav .home-color {
 @media screen and (max-width: 576px) {
   #food .box h1 {
     font-size: 40px;
+    margin-right: 0;
+  }
+  #food .box .imgbox {
+    width: 80px;
   }
 }
 
