@@ -71,6 +71,9 @@ header nav .home-color {
     font-size: 40px;
     margin-right: 0;
   }
+  #food .box h4 {
+    margin-bottom: 20px;
+  }
   #food .box .imgbox {
     width: 80px;
   }
@@ -107,10 +110,11 @@ header nav .home-color {
   }
   #thehome .textbox h5 {
     font-size: 16px;
-    margin: 0;
+    margin: 20px;
   }
   #thehome .imgbox {
     width: 350px;
+    margin-top: 20px;
   }
 }
 
@@ -217,10 +221,11 @@ header nav .home-color {
 }
 @media screen and (max-width: 576px) {
   #ourmenu .textbox h1 {
-    font-size: 35px;
+    font-size: 50px;
   }
   #ourmenu .btn {
     padding: 10px 30px;
+    margin: 0 10px;
   }
 }
 
@@ -246,6 +251,9 @@ header nav .home-color {
   border-radius: 5px;
 }
 @media screen and (max-width: 576px) {
+  #order .textbox h1 {
+    font-size: 50px;
+  }
   #order .imgbox {
     width: 300px;
   }
@@ -275,8 +283,12 @@ header nav .home-color {
   width: 520px;
 }
 @media screen and (max-width: 576px) {
+  #ourstore .textbox h1 {
+    font-size: 50px;
+  }
   #ourstore .imgbox {
     width: 300px;
+    margin-top: 20px;
   }
 }
 
@@ -299,4 +311,15 @@ header nav .home-color {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media screen and (max-width: 576px) {
+  #support .textbox h1 {
+    font-size: 50px;
+  }
+  #support .textbox .btn {
+    margin-bottom: 10px;
+  }
+  #support .imgbox {
+    margin: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
